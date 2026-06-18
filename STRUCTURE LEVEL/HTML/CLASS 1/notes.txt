@@ -1,0 +1,8 @@
+HTML (hypertext markup language) :
+--> where we can have some pre-defined tags & we use that for creating the structure of our web page / websites
+
+
+META TAGS :
+--> for encoding(UTF-8) the ASCII level or any entity level to our webpage
+--> for SEO (search engine optimization)
+--> for responsive design
