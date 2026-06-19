@@ -1,0 +1,17 @@
+MARQUEE TAG : it is used to move any object or any text from one end of screen to another end 
+
+TABLE TAG : 
+combination of rows and columns
+rows : tr (table row)
+columns : td / th (table data / table head)
+
+CELLSPACING : it is used for creating space b/w outer & inner cell
+
+CELLPADDING : it is used for creating space b/w cell & content
+
+ROW MERGE & COLUMN MERGE : it is always used in td / th
+    row_merge : rowspan (vertical merge)
+    column_merge : colspan (horizontal merge)
+
+< : &lt;
+> : &gt;
