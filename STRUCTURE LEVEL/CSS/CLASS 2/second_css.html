@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS_2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    .head {
+      /* color: red; */
+      /* color: #b1e505; */
+      /* color: rgb(123, 189, 100); */
+
+      font-size: 2rem;
+      font-weight: bolder;
+      font-style: italic;
+      /* font-family : 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif */
+      font-family: "Black Ops One", system-ui;
+    }
+
+    .box {
+      width: 90%;
+      height: 900px;
+
+      border: 20px red solid;
+      /* border-radius: 40px; */
+      /* border-radius: 50%; */
+
+      /* padding: 50px; */
+      /* margin: 50px; */
+
+      /* padding/margin - left/ right/ top/ bottom */
+      /* padding-top: 200px; */
+      /* padding-left: 100px; */
+
+      /* because that it is parent for text class */
+      position: relative;
+
+      /* background-color: black; */
+
+      background-image: url(./html.png);
+
+      background-repeat: no-repeat;
+      /* background-repeat: repeat-x; */
+      /* background-repeat: repeat-y; */
+
+      background-position: center;
+
+      /* background-size: contain; */
+      background-size: cover;
+    }
+
+    .text {
+      /* according to his parents */
+      position: absolute;
+      right: 20px;
+    }
+
+    .con {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      /* justify-content: space-around;   */
+      /* justify-content: space-between;   */
+      /* justify-content: space-evenly;   */
+
+      /* flex-direction: column; */
+      /* flex-direction: column-reverse; */
+      flex-direction: row-reverse;
+      flex-wrap: wrap;
+
+      align-items: center;
+    }
+
+    .sq-1 {
+      width: 200px;
+      height: 200px;
+      background-color: green;
+    }
+    .sq-2 {
+      width: 200px;
+      height: 200px;
+      background-color: red;
+    }
+    .sq-3 {
+      width: 200px;
+      height: 200px;
+      background-color: yellow;
+    }
+    .sq-4 {
+      width: 200px;
+      height: 200px;
+      background-color: black;
+    }
+  </style>
+  <body>
+    <div class="head">my name is navbar</div>
+
+    <div class="box"><!-- <div class="text">Hello I am a Box</div> --></div>
+
+    <!-- difference between block tag & inline tag -->
+    <!-- <span>Mohd</span>Ayan -->
+
+    <!-- div is block tag, takes full row space -->
+    <div>Mohd</div>
+    Ayan
+
+    <div class="con">
+      <div class="sq-1"></div>
+      <div class="sq-2"></div>
+      <div class="sq-3"></div>
+      <div class="sq-4"></div>
+    </div>
+
+    <div class="box1"></div>
+  </body>
+</html>

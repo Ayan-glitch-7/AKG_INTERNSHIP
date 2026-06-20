@@ -1,0 +1,31 @@
+Colors : text color,
+    what is rem ?
+    --> 1 rem = 16 px
+
+Borders :
+    for dimension : width & height
+    border-width, border-color, border-style
+    borrder-radius : used for border curvness
+
+Box Model :
+    padding : space from inside the border
+    margin : space from outside border
+
+Backgrounds :
+    background-color
+    background-image
+        position
+        repeat
+        size
+
+FlexBox :
+    it is used for one-dimensional, which will either work on row or column, mainly used for responsive design
+
+    display : flex to our parent or required object
+        gap
+        justift-content
+        flex-direction
+        flex-wrap
+        align-items
+
+Animation,        
