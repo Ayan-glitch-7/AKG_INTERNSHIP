@@ -1,0 +1,26 @@
+MEDIA QUERY :
+    media querry ia a way to build dynamic & responsive website
+    >1920px : big screen
+    1440px - 1920px : big screen
+    1280px - 1439px : 13.6 inch laptops
+    768px - 1279px : tablets
+    440px - 767px : phones
+
+GRID :
+    in grid we apply elements in two - dimensional
+    grid-template-columns
+    grid-template-rows
+
+    grid-repeat
+
+PSEUDO CLASSES & VARIABLES :
+    to provide an additional property to an elements
+    :hover -- transition : alWhichProperty time timing_function
+
+    :first-child
+    :last-child
+    
+    :nth-child
+
+Web Page Building (Responsive website)    
+        
