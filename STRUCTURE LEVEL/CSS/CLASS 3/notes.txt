@@ -22,5 +22,5 @@ PSEUDO CLASSES & VARIABLES :
     
     :nth-child
 
-Web Page Building (Responsive website)    
+Web Page Building  (Responsive website)    
         
