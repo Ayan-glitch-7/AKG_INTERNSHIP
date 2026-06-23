@@ -11,7 +11,7 @@ text-size : text-[size] / text-sm to 9xl
 
 BOX MODEL :
 padding : p pt(padding top), pb(padding bottom) ps pe
-margin : m mt(margin top), mb(margin bottom) ms m
+margin : m mt(margin top), mb(margin bottom) ms me
 
 DIMENSIONS : 
 width : w-[dimensions]
