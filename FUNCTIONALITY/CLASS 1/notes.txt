@@ -1,0 +1,38 @@
+what is JS ?
+--> JS is the scripting language that is used to add the functionality as well as creating the server based applications
+
+JS are of three types :
+--> INLINE
+--> INTERNAL
+--> EXTERNAL
+
+.js is the extension for the javascript file
+
+Variables and their Declaration :
+let, var, const : Declaration Keywords
+
+Difference b/w let, var & const (interview questions)
+
+Data Types :
+--> Number : all the integers plus floats are included in the Number
+--> String : an character inside " " is known as String
+--> Boolean : true or false
+--> undefined :
+--> Null / Object
+
+Operators :
+1. Arithmetic operators (+, -, *, /, %, **)
+2. Relational operators (<, >, <=, >=, ==, !=, ===)
+    difference b/w == & ===
+3. Logical operators
+    && : all the conditions must be true
+        Real scenario : login page (username & password both must be correct (true))
+    || : any single condition must be true
+        Real scenorio : phone fingerprints
+    ! : reverse the answer
+4. Unary operators
+    Increment : pre & post
+    Decrement : pre & post
+5. Assignment operators (=, +=, -=, *=, /=, %=, **=)
+6. Ternary operators : condition based operator     
+    (condition)?Statement1(condition is true) : Statement2(condition is false)       
