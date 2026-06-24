@@ -9,7 +9,7 @@ JS are of three types :
 .js is the extension for the javascript file
 
 Variables and their Declaration :
-let, var, const : Declaration Keywords
+let, var, const : Declaration Keyword
 
 Difference b/w let, var & const (interview questions)
 
