@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS_1</title>
+  </head>
+  <body>
+    <!-- INLINE JS -->
+    <button onclick="console.log('button clicked')">CLICK HERE</button>
+
+    <script>
+      // INTERNAL JS
+
+      // how to create variables ?
+      // name="Ayan";
+
+      // Keyword : let, var & const
+
+      //   1) LET :
+
+      // let a = 10;      (declare)
+      //   console.log(a);
+
+      // let a = 100;      (error : because in let keyword we cannot re-declare any value)
+      //   a = 100;     (no error : because we can re-assign)
+      //   console.log(a);
+
+      //   2) VAR :
+
+      //   var a = 100;
+      //   console.log(a);
+
+      //   var a = 200;     (no error : because it can re-declare as well as re-assignthe value to the variables)
+      //   console.log(a);
+
+      //   3) CONST :
+
+      //   const a = 100;
+      //   console.log(a);
+
+      //   const a = 200;     (error : cannot be re-declared)
+      //   a = 200;     (error : cannot be re-assigned)
+
+      //   DATA TYPES :
+
+      // let a = 10;
+      // let b = 19.5
+      // console.log(typeof(a));     (number)
+      // console.log(typeof(b));     (number)
+
+      //   let c = "Ayan@123";
+      //   console.log(typeof(c));     (String)
+
+      // let d = true;
+      // console.log(typeof(d));     (boolean)
+
+      //   let e;
+      //   console.log(typeof(e));     (undefined)
+
+      //   let f = null;
+      //   console.log(typeof(f));     (object)
+
+      //   console.log(a+b);
+      //   console.log(a-b);
+      //   console.log(a*b);
+      //   console.log(a/b);     (quotient)
+      //   console.log(a%b);     (remainder)
+      //   console.log(a**b);
+
+      //   console.log(a<b);
+      //   console.log(a>b);
+      //   console.log(a<=b);
+      //   console.log(a>=b);
+      //   console.log(a==b);
+      //   console.log(a!=b);
+
+      //   let num1 = 10;
+      //   let num2 = 20;
+      //   let num3 = 21;
+      //   console.log(num1<num2 && num2>num3);     (false)
+      //   console.log(num1<num2 || num2>num3);     (true)
+      //   console.log(!(num1<num2 || num2>num3));
+
+      //   let a = 10;
+
+      //   let b = a++;     (POST INCREMENT : it will increase after assigning)
+      // let b = a--;     (POST DECREMENT)
+
+      // let b = ++a;     (PRE INCREMENT : it will first increase then assign)
+      // let b = --a;     (PRE DECREMENT)
+
+      //   console.log(a);
+      //   console.log(b);
+
+      // a+=20;     (a = a + 20)
+      // console.log(a);
+
+      //   TERNARY OPERATOR :
+      let age = 15;
+      age > 19 ? console.log("eligible") : console.log("not eligible");
+    </script>
+
+    <!-- EXTERNAL JS -->
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,1 +1,1 @@
-// we can write java script codes here
+// we can write EXTERNAL JS  here
