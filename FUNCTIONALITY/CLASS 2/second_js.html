@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS_2</title>
+  </head>
+  <body>
+    <script>
+      // for user-input we use : prompt()
+      // Prompt() by default delivers the string value
+
+      // Typecasting : converting the type of a variable
+      // parseInt() : for converting into integer
+      // parseFloat() : for converting into decimal value
+
+      // let a = parseInt(prompt("Enter a"))
+      // let b = parseInt(prompt("Enter b"))
+
+      // Template literal : in ES6
+
+      // console.log("Sum of", a, "&", b, "is", a+b);
+      // console.log(`Sum of ${a} & ${b} is ${a+b}`);
+
+      // If & else :
+      //   if is the starting statement, if can be used multiple times
+      //   else is the ending statement, else is used only single time
+
+      //   let age = parseInt(prompt("Enter your age :"));
+
+      //   if (age >= 19) {
+      //     // (starting statement)
+      //     console.log("eligible to vote");
+      //   } else if (age >= 14 && age <= 18) {
+      //     // (additional statement)
+      //     console.log(`eligible in ${19 - age} years`);
+      //   } else {
+      //     console.log(`elegible in ${19 - age} years`);
+      //   }
+
+      // Switch case :
+      //   their is one expression and each expression has multiple cases
+
+      //   buttonPressed :
+      //   Press 1 for react
+      //   Press 2 for node
+      //   Press 3 for express
+      //   Press 4 for mongodb
+
+      //   let buttonPressed = parseInt(prompt("press any button for output :"));
+
+      //   switch (buttonPressed) {
+      //     case 1:
+      //       console.log("react");
+      //       break; // (used to break after case is met)
+      //     case 2:
+      //       console.log("node");
+      //       break;
+      //     case 3:
+      //       console.log("express");
+      //       break;
+      //     case 4:
+      //       console.log("mongodb");
+      //       break;
+      //     default:
+      //       console.log("no case found");
+      //   }
+
+      // for loop :
+      //   for (let i = 0; i < 20; i++) {
+      //     console.log(i);
+      //   }
+      //   console.log("loop finished");
+
+      // while loop :
+      //   let i = 0;
+      //   while (i <= 20) {
+      //     console.log(i);
+      //     i += 2;
+      //   }
+
+      // do-while loop :
+      //   let i = 1;
+      //   do {
+      //     if (i % 2 == 0) {
+      //       console.log(i);
+      //     }
+      //     i++;
+      //   } while (i <= 20);
+
+      //   let name = "Ayan"; // (iteration on a string)
+      //   for (let char of name) {
+      //     console.log(char);
+      //   }
+
+      //   let arr = ["one", "two", "three", "four", "five"];
+      //   for (let item of arr) {
+      //     console.log(item);
+      //   }
+
+      // FUNCTIONS :
+      //   function greet() {
+      //     console.log("hello everyone");
+      //   }
+
+      //   greet();
+
+      // PARAMETER & ARGUMENT :
+      //   parameters are variables that are declared in the scope of function
+      //   arguments is the value that is passed for the parameter in function scope
+
+      //   function add(a, b) {
+      //     // (parameters)
+      //     console.log(a + b);
+      //   }
+
+      //   add(10, 20); // (arguments)
+
+      // return value function
+      //   function add(a, b) {
+      //     // (parameters)
+      //     console.log(a + b);
+      //     return a + b; // (this value is returning to the function)
+      //   }
+
+      //   console.log(add(10,20))
+
+      // Default value function :
+      //   function info(fname, lname = "Ayan") {
+      //     console.log(fname, lname);
+      //   }
+
+      //   info("Mohd");
+      //   info("Aditi");
+      //   info("Aditi", "Tripathi"); // (here the lname has overlapped the default value)
+
+      //Function expression :
+      //   let product = function (a, b) {
+      //     console.log(a * b);
+      //   };
+
+      //   product(12, 3);
+
+      // Arrow functions :
+      let product = (a, b) => {
+        console.log(a * b);
+      };
+
+      product(98, 7);
+    </script>
+  </body>
+</html>
