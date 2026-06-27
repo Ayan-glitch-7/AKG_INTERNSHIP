@@ -1,0 +1,41 @@
+User-Input Typecasting & Template Literal
+
+Conditional Statement :
+    --> if else-if else
+    --> switch case
+
+Control Flow Statement :
+    --> that controls the statement, how to run & when to run
+    --> in easy words, we say them loops 
+
+    1) for :
+            for (start, stop, step) {
+                // code
+            }
+
+    2) while :
+            start;
+            while (stop) {
+                //code
+                step
+            }
+
+    3) do-while :
+            start;
+            do {
+                // code
+                step 
+            } while (stop);
+
+    4) for of :
+            strings, array, objects
+
+
+Functions (most important) :
+    --> a block of code that is used for a certain work is known as Functions
+
+    function func_name() {                        // (declaration & definition)
+        // code
+    }
+
+    func_name()                                   // (calling a function)
