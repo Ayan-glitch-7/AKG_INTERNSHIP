@@ -4,7 +4,7 @@ what is JS ?
 JS are of three types :
 --> INLINE
 --> INTERNAL
---> EXTERNAL
+--> EXTERNAL 
 
 .js is the extension for the javascript file
 
