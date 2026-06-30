@@ -27,7 +27,7 @@ Type of Exports :
     1) Default : it is only applied on a one component in a file
     2) Named : it can be multiple
 
-
+ 
 Steps to create & use the component :
     STEP 1) create the .jsx file
     STEP 2) write functional component
