@@ -1,0 +1,81 @@
+CLASS 1 =>
+
+REACT : it is library of JS
+
+jsx : Javascript Extensible, where we write js in the HTML
+import : to access any component we build
+export : to export our component that other can use
+
+
+What is components ?
+Components are of two types :
+    1) Class Component : not more in use (it is very lengthy & hard to use)
+    2) Functional Component : it is very short and easy to understand
+
+
+Component name must be start with Capital Letter
+
+
+return() : here we return the UI from the component
+    
+    <>
+        Fragment tag
+    </>
+
+
+Type of Exports :
+    1) Default : it is only applied on a one component in a file
+    2) Named : it can be multiple
+
+
+Steps to create & use the component :
+    STEP 1) create the .jsx file
+    STEP 2) write functional component
+    STEP 3) export that component 
+    STEP 4) go to the file in which you have use the component & import the component
+
+
+How we can use JS in HTML ?
+we use JS in HTML using {variable name}
+
+
+Conditional Rendering : we return the output based on Condition
+Wrapper Component
+
+
+What are the pillars of React ? 
+React has 3 pillars :
+    1) STATE : managing the data of a component
+    2) PROPS : transferring data from parent component to child component
+    3) HOOKS : this is the features which helps us to create the optimised and scalable application
+
+
+Click Event : onClick()
+
+
+
+CLASS 2 =>
+
+What is props  ?
+Props means data transfer from parent to child component
+
+
+What is useEffect() ?
+it is a hook that handles the side effects of a page
+like api fetching, pagination, ...
+
+useEffect() has 3 use case :
+    1) without any dependency
+    2) with empty array
+    3) with dependency
+
+Syntax :
+    useEffect(callback, dependency);
+
+
+Form Handling ?
+    manual without use of any packages
+    using packages i.e React hook Form
+
+
+Interview : Controlled statements & Uncontrolled statements     
