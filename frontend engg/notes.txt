@@ -1,4 +1,4 @@
-CLASS 1 =>
+CLASS 1 => 
 
 REACT : it is library of JS
 
